@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var d = new Date();
+        var day=d.getDay();
+        switch (day){
+            case 0:
+                alert('Chu nhat');
+                break
+            case 1:
+                alert('Thu 2');
+                break
+            case 2:
+                alert('Thu 3');
+                break
+            case 3:
+                alert('Thu 4');
+                break
+            case 4:
+                alert('Thu 5');
+                break
+            case 5:
+                alert('Thu 6');
+                break
+            case 6:
+                alert('Thu 7');
+                break
+        }
+
+        for (var i=0 ; i<=100; i+=2){
+            console.log(i);
+        }
+        for(var i=0; i<=100; i++){
+            if (i%2!=0){
+                console.log(i);
+            }
+        }
+        for(var i=0; i<=100; i++){
+            if (i%3==0){
+                console.log(i);
+            }
+        }
+
+        var x;
+        x=['thang 1','thang 2','thang 3','thang 4','thang 5','thang 6','thang 7','thang 8','thang 9','thang 10','thang 11','thang 12'];
+        console.log(x.length);
+        console.log(x[2]);
+        for (var i=0; i<x.length; i++){
+            console.log(x[i]);
+        }
+    </script>
+</body>
+</html>
