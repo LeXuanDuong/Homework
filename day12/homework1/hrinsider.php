@@ -81,7 +81,7 @@
         </div>
     </div>
     <div class="row">
-        <form name="hr" action="index.php" method="post">
+        <form name="hr" action="hrinsider.php" method="post">
             <div class="form-group">
                 <label>Thu nhập gross</label>
                 <input type="text" name="gross" class="form-control" value="">
